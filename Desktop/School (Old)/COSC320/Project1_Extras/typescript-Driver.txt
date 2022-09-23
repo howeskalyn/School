@@ -1,0 +1,67 @@
+———————————————————————
+Matrix A:
+3   4   
+1   0   
+
+Time starts now: 
+
+Matrix A Inverse:
+-2.38419e-07 1   
+0.25 -0.75 
+
+Number of operations: 21
+
+There is most likely a rounding error.
+
+finished at Thu Mar 11 15:19:22 2021
+elapsed time: 5.2e-05s
+
+Determinant: -4
+
+———————————————————————
+
+Matrix A:
+4   4   9   
+8   7   3   
+1   1   9   
+
+Time starts now: 
+
+Matrix A Inverse:
+-2.22215 1.00006 1.88881 
+2.55548 -1.00006 -2.22212 
+-0.0370332 3.62098e-06 0.148143 
+
+Number of operations: 98
+
+There is most likely a rounding error.
+
+finished at Thu Mar 11 15:20:45 2021
+elapsed time: 0.000154s
+
+Determinant: -27
+
+———————————————————————
+
+Matrix A:
+7   3   7   9   
+5   4   3   2   
+5   5   3   3   
+2   8   3   1   
+
+Time starts now: 
+
+Matrix A Inverse:
+-0.0903615 0.20482 0.198794 -0.192771 
+-0.0542161 -0.277105 0.319272 0.0843385 
+0.186744 0.843361 -1.21083 0.265057 
+0.0542183 -0.722884 0.680711 -0.084335 
+
+Number of operations: 78
+
+There is most likely a rounding error.
+
+finished at Thu Mar 11 15:21:34 2021
+elapsed time: 0.000152s
+
+Determinant: -166

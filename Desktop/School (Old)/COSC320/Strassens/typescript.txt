@@ -1,0 +1,144 @@
+Matrix A:
+0   3   
+0   9   
+
+
+Matrix B:
+3   1   
+2   1   
+
+
+Multiplied:
+6   3   
+18  9   
+
+
+Matrix Multiplication finished at Sun Mar 14 12:21:05 2021
+elapsed time: 1.3e-05s
+
+Strassen Time (to pad and multiply): 2.4e-05
+Total Time (with removing padding): 2.8e-05
+
+Strassen Multiplied:
+6   3   
+18  9
+
+---------------------------------------------------------------------------------------------
+Matrix A:
+2   8   4   
+5   3   9   
+5   3   6   
+
+
+Matrix B:
+2   6   9   
+5   4   9   
+7   0   6   
+
+
+Multiplied:
+72  44  114 
+88  42  126 
+67  42  108 
+
+
+Matrix Multiplication finished at Sun Mar 14 12:22:01 2021
+elapsed time: 1.5e-05s
+
+Either the dims didn't match or they were not powers of 2. This is fixed now!
+Strassen Time (to pad and multiply): 8.2e-05
+Total Time (with removing padding): 8.6e-05
+
+Strassen Multiplied:
+72  44  114 
+88  42  126 
+67  42  108
+
+---------------------------------------------------------------------------------------------
+Matrix A:
+4   4   3   2   
+8   1   9   0   
+5   5   5   2   
+1   2   1   1   
+
+
+Matrix B:
+1   0   3   1   
+2   1   9   0   
+8   3   8   1   
+2   4   0   0   
+
+
+Multiplied:
+40  21  72  7   
+82  28  105 17  
+59  28  100 10  
+15  9   29  2   
+
+
+Matrix Multiplication finished at Sun Mar 14 14:32:57 2021
+elapsed time: 2.1e-05
+
+Strassen Time (to pad and multiply): 0.0001
+Total Time (with removing padding): 0.000109
+
+Strassen Multiplied:
+40  21  72  7   
+82  28  105 17  
+59  28  100 10  
+15  9   29  2   
+
+---------------------------------------------------------------------------------------------
+
+Matrix A:
+1   9   2   1   1   3   8   2   2   
+4   4   5   4   7   9   4   3   8   
+5   9   7   0   5   4   1   3   7   
+9   7   4   6   8   2   6   4   8   
+2   3   9   9   2   5   9   0   8   
+2   0   3   3   2   4   0   7   9   
+5   5   9   5   3   2   0   7   5   
+6   5   9   1   7   2   6   9   8   
+2   1   2   1   1   1   7   5   0   
+
+
+Matrix B:
+5   8   3   5   0   6   5   9   9   
+8   1   4   8   1   8   5   5   7   
+4   5   6   3   4   4   7   8   7   
+9   7   7   5   9   0   7   4   6   
+8   2   3   6   2   0   5   4   5   
+1   8   5   8   0   7   4   7   7   
+2   6   9   4   9   2   2   1   4   
+9   4   2   1   7   3   6   6   7   
+7   4   3   8   6   9   4   7   7   
+
+
+Multiplied:
+153 124 158 168 126 147 124 133 178 
+264 243 218 284 179 228 232 281 314 
+247 172 164 243 119 232 208 262 284 
+341 257 241 299 223 236 266 304 356 
+246 257 271 258 253 197 231 249 293 
+195 152 112 157 146 154 156 195 207 
+270 195 172 198 171 186 233 265 286 
+322 239 226 257 229 237 266 313 350 
+103 106 110 76  118 64  89  91  120 
+
+
+Matrix Multiplication finished at Sun Mar 14 14:38:18 2021
+elapsed time: 6.2e-05
+
+Strassen Time (to pad and multiply): 0.003241
+Total Time (with removing padding): 0.00342
+
+Strassen Multiplied:
+153 124 158 168 126 147 124 133 178 
+264 243 218 284 179 228 232 281 314 
+247 172 164 243 119 232 208 262 284 
+341 257 241 299 223 236 266 304 356 
+246 257 271 258 253 197 231 249 293 
+195 152 112 157 146 154 156 195 207 
+270 195 172 198 171 186 233 265 286 
+322 239 226 257 229 237 266 313 350 
+103 106 110 76  118 64  89  91  120 

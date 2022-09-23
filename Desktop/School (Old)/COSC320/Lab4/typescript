@@ -1,0 +1,141 @@
+Script started on Wed Feb 24 20:42:48 2021
+
+---- Integers -----
+
+
+Level: 1
+---------
+Node #1:
+Priority: 930
+Data: 0
+
+Level: 2
+---------
+Node #2:
+Priority: 807
+Data: 0
+
+Node #3:
+Priority: 249
+Data: 0
+
+Level: 3
+---------
+Node #4:
+Priority: 658
+Data: 0
+
+Node #5:
+Priority: 73
+Data: 0
+
+Max Heap Size: 5
+
+ExtractMax: 930
+Peek: 0
+
+
+---- Strings -----
+
+Enter number of names: 5
+ (an empty heap was made) 
+The heap is empty.
+
+Max Heap Size: 5
+
+Enter first name: Kalyn
+Enter first name: Anderson
+Enter first name: Bethany
+Enter first name: Logan
+Enter first name: Nick
+
+Level: 1
+---------
+Node #1:
+Priority: 4
+Data: Nick
+
+Level: 2
+---------
+Node #2:
+Priority: 3
+Data: Logan
+
+Node #3:
+Priority: 2
+Data: Bethany
+
+Level: 3
+---------
+Node #4:
+Priority: 1
+Data: Anderson
+
+Node #5:
+Priority: 0
+Data: Kalyn
+
+Max Heap Size: 5
+
+ExtractMax: 4
+Peek: 0
+
+---------------------------------------
+Wed Feb 24 23:35:39 2021
+
+
+---- Integers -----
+
+
+Level: 1
+---------
+Node #1:
+Priority: 930
+Data: 0
+
+Level: 2
+---------
+Node #2:
+Priority: 807
+Data: 0
+
+Node #3:
+Priority: 249
+Data: 0
+
+Level: 3
+---------
+Node #4:
+Priority: 658
+Data: 0
+
+Node #5:
+Priority: 73
+Data: 0
+
+Max Heap Size: 5
+
+ExtractMax: 930
+Peek: 0
+
+
+---- Strings -----
+
+Enter number of names: Kalyn
+ (an empty heap was made) 
+The heap is empty.
+
+Max Heap Size: 0
+
+The heap is empty.
+
+Max Heap Size: 0
+
+ExtractMax: Heap Underflow.
+0
+Peek: 0
+
+
+
+
+   

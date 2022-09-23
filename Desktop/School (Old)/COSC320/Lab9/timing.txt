@@ -1,0 +1,36 @@
+
+----- INSERT -----
+Inserting 500000 elements took: 0.22884
+Inserting 5105000 elements took: 0.245889
+Inserting 520000 elements took: 0.245667
+Inserting 530000 elements took: 0.247652
+Inserting 540000 elements took: 0.262332
+Inserting 550000 elements took: 0.248586
+Inserting 560000 elements took: 0.256214
+Inserting 570000 elements took: 0.261501
+Inserting 580000 elements took: 0.263797
+Inserting 590000 elements took: 0.272741
+
+----- SEARCH -----
+For size: 500000, searching for key 7 took: 1e-06
+For size: 510000, searching for key 84 took: 1e-06
+For size: 520000, searching for key 87 took: 0
+For size: 530000, searching for key 68 took: 0
+For size: 540000, searching for key 10 took: 0
+For size: 550000, searching for key 80 took: 0
+For size: 560000, searching for key 66 took: 0
+For size: 570000, searching for key 2 took: 0
+For size: 580000, searching for key 38 took: 0
+For size: 590000, searching for key 63 took: 0
+
+----- REMOVE -----
+For size: 500000, removing key 58 took: 3e-06
+For size: 510000, removing key 36 took: 3e-06
+For size: 520000, removing key 27 took: 3e-06
+For size: 530000, removing key 90 took: 3e-06
+For size: 540000, removing key 54 took: 3e-06
+For size: 550000, removing key 72 took: 3e-06
+For size: 560000, removing key 92 took: 3e-06
+For size: 570000, removing key 8 took: 3e-06
+For size: 580000, removing key 35 took: 3e-06
+For size: 590000, removing key 14 took: 5e-06

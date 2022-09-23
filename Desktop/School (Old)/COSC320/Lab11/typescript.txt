@@ -1,0 +1,330 @@
+____________________________________________________________________________
+
+Enter the name of the file you would like to open: undirected.txt
+
+File is open.
+The graph is undirected.
+
+--- Adding Vertices --- 
+Vertex 0 is being added to the graph.
+Vertex 1 is being added to the graph.
+Vertex 2 is being added to the graph.
+Vertex 3 is being added to the graph.
+Vertex 4 is being added to the graph.
+Vertex 2 is already in the graph.
+
+--- Adding Edges --- 
+Adding edge 0--3 to the graph.
+The graph is undirected - adding edge 3--0 to the graph as well.
+Adding edge 1--2 to the graph.
+The graph is undirected - adding edge 2--1 to the graph as well.
+Adding edge 4--3 to the graph.
+The graph is undirected - adding edge 3--4 to the graph as well.
+Adding edge 4--1 to the graph.
+The graph is undirected - adding edge 1--4 to the graph as well.
+Adding edge 2--4 to the graph.
+The graph is undirected - adding edge 4--2 to the graph as well.
+5 is NOT in the graph.
+Edge 5--2 could not be added.
+5 is NOT in the graph.
+Edge 5--2 could not be added.
+
+--- Printing the adjacency list ---
+Nodes neighboring 0: 
+{ 3, }
+Nodes neighboring 1: 
+{ 2, 4, }
+Nodes neighboring 2: 
+{ 1, 4, }
+Nodes neighboring 3: 
+{ 0, 4, }
+Nodes neighboring 4: 
+{ 3, 1, 2, }
+
+--- Running DFS ---
+Vertex 2 finish time: 6
+Vertex 1 finish time: 7
+Vertex 4 finish time: 8
+Vertex 3 finish time: 9
+Vertex 0 finish time: 10
+
+Is the graph a DAG?
+The graph is NOT a DAG  - it is either undirected or has cycles.
+
+--- Topological Sort ---
+The graph is NOT a DAG - topological sort cannot occur.
+
+--- Reporting SCC's --- 
+
+-First DFS Run-
+Vertex 2 finish time: 6
+Vertex 1 finish time: 7
+Vertex 4 finish time: 8
+Vertex 3 finish time: 9
+Vertex 0 finish time: 10
+
+-Reversing Edges- 
+Adding edge 3--0 to the graph.
+The graph is undirected - adding edge 0--3 to the graph as well.
+Adding edge 2--1 to the graph.
+The graph is undirected - adding edge 1--2 to the graph as well.
+Adding edge 4--1 to the graph.
+The graph is undirected - adding edge 1--4 to the graph as well.
+Adding edge 1--2 to the graph.
+The graph is undirected - adding edge 2--1 to the graph as well.
+Adding edge 4--2 to the graph.
+The graph is undirected - adding edge 2--4 to the graph as well.
+Adding edge 0--3 to the graph.
+The graph is undirected - adding edge 3--0 to the graph as well.
+Adding edge 4--3 to the graph.
+The graph is undirected - adding edge 3--4 to the graph as well.
+Adding edge 3--4 to the graph.
+The graph is undirected - adding edge 4--3 to the graph as well.
+Adding edge 1--4 to the graph.
+The graph is undirected - adding edge 4--1 to the graph as well.
+Adding edge 2--4 to the graph.
+The graph is undirected - adding edge 4--2 to the graph as well.
+
+ -Finish times & their vertices- 
+Vertex: 2 has time: 6
+Vertex: 1 has time: 7
+Vertex: 4 has time: 8
+Vertex: 3 has time: 9
+Vertex: 0 has time: 10
+
+-Checking Sort-
+Vertex: 0 has time: 10
+Vertex: 3 has time: 9
+Vertex: 4 has time: 8
+Vertex: 1 has time: 7
+Vertex: 2 has time: 6
+
+-Second DFS Run-
+Vertex 0 finish time: 6
+Vertex 3 finish time: 7
+Vertex 4 finish time: 8
+Vertex 1 finish time: 9
+Vertex 2 finish time: 10
+____________________________________________________________________________
+
+Enter the name of the file you would like to open: directed.txt
+
+File is open.
+The graph is directed.
+
+--- Adding Vertices --- 
+Vertex 0 is being added to the graph.
+Vertex 1 is being added to the graph.
+Vertex 2 is being added to the graph.
+Vertex 3 is being added to the graph.
+Vertex 4 is being added to the graph.
+Vertex 2 is already in the graph.
+
+--- Adding Edges --- 
+Adding edge 0--3 to the graph.
+Adding edge 1--2 to the graph.
+Adding edge 4--3 to the graph.
+Adding edge 4--1 to the graph.
+Adding edge 2--4 to the graph.
+5 is NOT in the graph.
+Edge 5--2 could not be added.
+5 is NOT in the graph.
+Edge 5--2 could not be added.
+
+--- Printing the adjacency list ---
+Nodes neighboring 0: 
+{ 3, }
+Nodes neighboring 1: 
+{ 2, }
+Nodes neighboring 2: 
+{ 4, }
+Nodes neighboring 3: 
+{ }
+Nodes neighboring 4: 
+{ 3, 1, }
+
+--- Running DFS ---
+Vertex 3 finish time: 3
+Vertex 0 finish time: 4
+Vertex 4 finish time: 8
+Vertex 2 finish time: 9
+Vertex 1 finish time: 10
+
+Is the graph a DAG?
+The graph is NOT a DAG  - it is either undirected or has cycles.
+
+--- Topological Sort ---
+The graph is NOT a DAG - topological sort cannot occur.
+
+--- Reporting SCC's --- 
+
+-First DFS Run-
+Vertex 3 finish time: 3
+Vertex 0 finish time: 4
+Vertex 4 finish time: 8
+Vertex 2 finish time: 9
+Vertex 1 finish time: 10
+
+-Reversing Edges- 
+Adding edge 3--0 to the graph.
+Adding edge 2--1 to the graph.
+Adding edge 4--2 to the graph.
+Adding edge 3--4 to the graph.
+Adding edge 1--4 to the graph.
+
+ -Finish times & their vertices- 
+Vertex: 3 has time: 3
+Vertex: 0 has time: 4
+Vertex: 4 has time: 8
+Vertex: 2 has time: 9
+Vertex: 1 has time: 10
+
+-Checking Sort-
+Vertex: 1 has time: 10
+Vertex: 2 has time: 9
+Vertex: 4 has time: 8
+Vertex: 0 has time: 4
+Vertex: 3 has time: 3
+
+-Second DFS Run-
+Vertex 3 finish time: 2
+Vertex 0 finish time: 4
+Vertex 2 finish time: 8
+Vertex 1 finish time: 9
+Vertex 4 finish time: 10
+____________________________________________________________________________
+
+Enter the name of the file you would like to open: DAG.txt
+
+File is open.
+The graph is directed.
+
+--- Adding Vertices --- 
+Vertex 0 is being added to the graph.
+Vertex 1 is being added to the graph.
+Vertex 2 is being added to the graph.
+Vertex 3 is being added to the graph.
+Vertex 4 is being added to the graph.
+Vertex 2 is already in the graph.
+
+--- Adding Edges --- 
+Adding edge 0--3 to the graph.
+Adding edge 1--2 to the graph.
+Adding edge 4--3 to the graph.
+Adding edge 4--1 to the graph.
+5 is NOT in the graph.
+Edge 5--2 could not be added.
+5 is NOT in the graph.
+Edge 5--2 could not be added.
+
+--- Printing the adjacency list ---
+Nodes neighboring 0: 
+{ 3, }
+Nodes neighboring 1: 
+{ 2, }
+Nodes neighboring 2: 
+{ }
+Nodes neighboring 3: 
+{ }
+Nodes neighboring 4: 
+{ 3, 1, }
+
+--- Running DFS ---
+Vertex 3 finish time: 3
+Vertex 0 finish time: 4
+Vertex 2 finish time: 7
+Vertex 1 finish time: 8
+Vertex 4 finish time: 10
+
+Is the graph a DAG?
+The graph is a DAG - it is directed & acyclic.
+
+--- Topological Sort ---
+The graph is directed and acyclic (DAG) - topological sort starts now.
+10 
+8 
+7 
+4 
+3 
+
+--- Reporting SCC's --- 
+
+-First DFS Run-
+Vertex 3 finish time: 3
+Vertex 0 finish time: 4
+Vertex 2 finish time: 7
+Vertex 1 finish time: 8
+Vertex 4 finish time: 10
+
+-Reversing Edges- 
+Adding edge 3--0 to the graph.
+Adding edge 2--1 to the graph.
+Adding edge 3--4 to the graph.
+Adding edge 1--4 to the graph.
+
+ -Finish times & their vertices- 
+Vertex: 3 has time: 3
+Vertex: 0 has time: 4
+Vertex: 2 has time: 7
+Vertex: 1 has time: 8
+Vertex: 4 has time: 10
+
+-Checking Sort-
+Vertex: 4 has time: 10
+Vertex: 1 has time: 8
+Vertex: 2 has time: 7
+Vertex: 0 has time: 4
+Vertex: 3 has time: 3
+
+-Second DFS Run-
+Vertex 3 finish time: 2
+Vertex 0 finish time: 4
+Vertex 2 finish time: 6
+Vertex 1 finish time: 8
+Vertex 4 finish time: 10
+
+____________________________________________________________________________
+
+Enter the name of the file you would like to open: m.txt
+
+Error opening file.
+The graph is undirected.
+
+--- Adding Vertices --- 
+Vertex 0 is being added to the graph.
+Vertex 0 is already in the graph.
+Vertex 0 is already in the graph.
+Vertex 0 is already in the graph.
+Vertex 0 is already in the graph.
+Vertex 0 is already in the graph.
+
+--- Adding Edges --- 
+
+--- Printing the adjacency list ---
+Nodes neighboring 0: 
+{ }
+
+--- Running DFS ---
+Vertex 0 finish time: 2
+
+Is the graph a DAG?
+The graph is NOT a DAG  - it is either undirected or has cycles.
+
+--- Topological Sort ---
+The graph is NOT a DAG - topological sort cannot occur.
+
+--- Reporting SCC's --- 
+
+-First DFS Run-
+Vertex 0 finish time: 2
+
+-Reversing Edges- 
+
+ -Finish times & their vertices- 
+Vertex: 0 has time: 2
+
+-Checking Sort-
+Vertex: 0 has time: 2
+
+-Second DFS Run-
+Vertex 0 finish time: 2

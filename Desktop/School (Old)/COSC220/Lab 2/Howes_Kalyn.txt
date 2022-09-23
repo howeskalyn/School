@@ -1,0 +1,9 @@
+Item number    Item Name       Unit     Unit price      Tax       Subtotal
+-----------    ---------       ----     ----------      ---       --------
+502        Microwave-Popcon-Orville-12cnt    6      4.98       1.7928       31.6728
+
+302        Fruit-Can-Peach-Dole-30oz    2      5.99       0.7188       12.6988
+
+801        Beef-ChuckRost    6.4      4.86       1.86624       32.9702
+
+Total                                                        77.3418

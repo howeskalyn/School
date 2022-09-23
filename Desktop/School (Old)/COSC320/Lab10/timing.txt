@@ -1,0 +1,3 @@
+Adding 10 vertices took: 5.3e-05
+Adding 10 edges took: 0.000239
+BFS took: 4e-05
