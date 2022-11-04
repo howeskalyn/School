@@ -1,0 +1,38 @@
+package jpa.dao;
+
+import javax.persistence.TypedQuery;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+import jpa.entitymodels.Student;
+
+
+public class StudentService {
+	
+	// reads Student table and returns the data as a List<Student>
+	public List<Student> getAllStudents() {
+		SessionFactory factory = new Configuration().configure().buildSessionFactory();
+		Session session = factory.openSession();
+		Transaction tx = session.beginTransaction();
+
+//		String hql = "FROM student s";
+		String hql = "FROM Student s WHERE s.sEmail =: studentEmail";
+		TypedQuery<Student> query = session.createQuery(hql, Student.class);
+//		query.setParameter("studentEmail", currentEmail);
+
+		List<Student> result = query.getResultList();
+
+		// close resources
+		tx.commit();
+		factory.close();
+		session.close();
+
+		return result;
+	}
+
+}

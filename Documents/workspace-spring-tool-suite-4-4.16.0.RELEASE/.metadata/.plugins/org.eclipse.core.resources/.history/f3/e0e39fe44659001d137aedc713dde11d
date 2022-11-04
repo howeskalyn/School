@@ -1,0 +1,27 @@
+package com.test.project.school_database;
+
+import school.database.controller.CourseDAO;
+
+public class App {
+	public static void main(String[] args) {
+		
+		CourseDAO courseDAO = new CourseDAO();
+		CourseDAO course = courseDAO.findById(114);
+
+//		System.out.println("Customer Number = " + customer.getId());
+//		Employee salesRep = customer.getSalesRep();
+//		System.out.println("Employee (sales rep) First Name = " + salesRep.getFirstName());
+//
+//		EmployeeDAO employeeDAO = new EmployeeDAO();
+//		Employee e = employeeDAO.findByEmployeeId(1165);
+//		System.out.println("Employee Number = " + e.getEmployeeNumber() + " First Name = " + e.getFirstName());
+//
+//		for (Customer c : e.getCustomers()) {
+//			System.out.println("c.customerNumber = " + c.getId() + " | First Name = " + c.getFirstName()
+//					+ " | Last name = " + c.getLastName() + " Sales rep  | " + c.getSalesRep().getFirstName());
+//		}
+//
+//		Employee emp = employeeDAO.findByCustomerNumber(112);
+//		System.out.println(emp.getEmployeeNumber());
+	}
+}

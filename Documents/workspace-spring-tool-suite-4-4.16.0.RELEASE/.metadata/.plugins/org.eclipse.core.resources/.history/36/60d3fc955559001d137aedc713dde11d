@@ -1,0 +1,5 @@
+package school.database.util;
+
+public class EmailValidationTest {
+
+}

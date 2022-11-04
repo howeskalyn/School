@@ -1,0 +1,44 @@
+package jpa.entitymodels;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+
+import java.util.List;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "Student")
+public class Student {
+
+	// PRIMARY KEY
+	@Id
+	@Column(name = "email", insertable = false, updatable = false)
+	private String sEmail;
+
+	@Column(name = "name")
+	private String sName;
+	
+	@Column(name = "password")
+	private String sPass;
+	
+	// all the courses that a student has registered for - why is this necessary?
+	// private List<Course> sCourses;
+
+	// a single student can have many student courses
+	@ManyToOne(fetch = FetchType.EAGER, optional = false)
+	@JoinColumn(name = "email", nullable = false)
+	private Student_Course studentCourses;
+
+}

@@ -1,0 +1,5 @@
+package school.database.controller;
+
+public class DepartmentDAO {
+
+}

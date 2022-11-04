@@ -1,0 +1,20 @@
+package school.database.util;
+
+import org.junit.Test;
+import org.junit.jupiter.api.Assertions;
+//import org.junit.jupiter.api.Test;
+
+public class EmailValidationTest {
+	
+	@Test
+	public void isEmailValidTest() {
+		
+		EmailValidation ev = new EmailValidation();
+		
+		Assertions.assertTrue(ev.isValidEmail("kalynhowes@gmail.com"));
+		Assertions.assertFalse(ev.isValidEmail(null));
+		
+		
+	}
+
+}

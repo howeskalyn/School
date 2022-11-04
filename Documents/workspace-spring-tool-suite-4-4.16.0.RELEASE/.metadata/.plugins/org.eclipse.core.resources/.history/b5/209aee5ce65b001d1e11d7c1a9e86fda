@@ -1,0 +1,20 @@
+package com.sba.SMS;
+
+import java.util.List;
+
+import jpa.dao.StudentService;
+import jpa.entitymodels.Student;
+
+public class App {
+	public static void main(String[] args) {
+		
+		StudentService ss = new StudentService();
+		List<Student> allStudents = ss.getAllStudents();
+		
+		for (Student s : allStudents) {
+			System.out.println(s);
+		}
+		
+
+	}
+}
