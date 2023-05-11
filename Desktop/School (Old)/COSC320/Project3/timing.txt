@@ -1,4 +1,0 @@
-Greedy coloring of state example (7 vertices) took: 0.000104
-Greedy coloring of class example (7 vertices) took: 5.1e-05
-Chromatic number of state example (7 vertices) took: 0.153575
-Chromatic number of class example (7 vertices) took: 0.191309
