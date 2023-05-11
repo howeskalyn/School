@@ -1,0 +1,110 @@
+Timing Lab2 (on server)
+Kalyn Howes & Chloe VanCory
+_________________________________________________________________
+
+Matrix Addition: 
+
+5 nodes:
+
+A 100 by 100 matrix took 0.000190 seconds to add.
+A 1000 by 1000 matrix took 0.006874 seconds to add.
+A 10000 by 10000 matrix took 0.346744 seconds to add.
+A 20000 by 20000 matrix took 1.377040 seconds to add.
+A 30000 by 30000 matrix took 3.224578 seconds to add.
+A 40000 by 40000 matrix took 65.552820 seconds to add.
+
+
+10 nodes:
+
+A 100 by 100 matrix took 0.000977 seconds to add.
+A 1000 by 1000 matrix took 0.006206 seconds to add.
+A 10000 by 10000 matrix took 0.336040 seconds to add.
+A 20000 by 20000 matrix took 1.364114 seconds to add.
+A 30000 by 30000 matrix took 3.311667 seconds to add.
+A 40000 by 40000 matrix took 39.482471 seconds to add.
+
+_________________________________________________________________
+
+Matrix Subtraction: 
+
+5 nodes:
+
+A 100 by 100 matrix took 0.000190 seconds to subtract.
+A 1000 by 1000 matrix took 0.007014 seconds to subtract.
+A 10000 by 10000 matrix took 0.352731 seconds to subtract.
+A 20000 by 20000 matrix took 1.398946 seconds to subtract.
+A 30000 by 30000 matrix took 4.359850 seconds to subtract.
+A 40000 by 40000 matrix took 41.813242 seconds to subtract.
+
+10 nodes:
+
+A 100 by 100 matrix took 0.000973 seconds to subtract.
+A 1000 by 1000 matrix took 0.006956 seconds to subtract.
+A 10000 by 10000 matrix took 0.36132 seconds to subtract.
+A 20000 by 20000 matrix took 2.330745 seconds to subtract.
+A 30000 by 30000 matrix took 5.284503 seconds to subtract.
+A 40000 by 40000 matrix took 43.275992 seconds to subtract.
+
+_________________________________________________________________
+
+Matrix Multiplication: 
+
+5 nodes:
+(MAC)
+A 100 by 100 matrix took 0.021870 seconds to multiply.
+A 1000 by 1000 matrix took 0.072657 seconds to multiply.
+A 1500 by 1500 matrix took 0.178307 seconds to multiply.
+A 2000 by 2000 matrix took 0.223294 seconds to multiply.
+A 3000 by 3000 matrix took 0.481654 seconds to multiply.
+A 4000 by 4000 matrix took 0.631354 seconds to multiply.
+Wouldn't run any higher dimensions.
+
+(SERVER)
+A 100 by 100 matrix took 0.000664 seconds to multiply.
+A 120 by 120 matrix took 0.000480 seconds to multiply.
+A 130 by 130 matrix took 0.001054 seconds to multiply.
+A 140 by 140 matrix took 0.000998 seconds to multiply.
+Wouldn't run any higher dimensions.
+
+
+10 nodes:
+(MAC)
+A 100 by 100 matrix took 0.089402 seconds to multiply.
+A 1000 by 1000 matrix took 0.576816 seconds to multiply.
+A 2000 by 2000 matrix took 0.677433 seconds to multiply.
+A 3000 by 3000 matrix took 1.150904 seconds to multiply.
+A 4000 by 4000 matrix took 1.878229 seconds to multiply.
+A 5000 by 5000 matrix took 3.538823 seconds to multiply.
+A 6000 by 6000 matrix took 4.760339 seconds to multiply.
+Wouldn't run any higher dimensions.
+
+(SERVER)
+A 100 by 100 matrix took 0.001142 seconds to multiply.
+A 150 by 150 matrix took 0.001420 seconds to multiply.
+A 200 by 200 matrix took 0.001798 seconds to multiply.
+A 250 by 250 matrix took 0.002365 seconds to multiply.
+Wouldn't run any higher dimensions.
+
+________________________________________________________________________________________________
+Timing Lab3: Gauss-Jordan
+
+10 nodes:
+Gauss-Jordan Elimination for a 100 by 100 matrix took 0.124331 seconds
+
+Gauss-Jordan Elimination for a 1000 by 1000 matrix took 1.262671 seconds
+
+Gauss-Jordan Elimination for a 10000 by 10000 matrix took 545.126204 seconds
+
+
+20 nodes:
+Gauss-Jordan Elimination for a 100 by 100 matrix took 0.007205 seconds
+
+Gauss-Jordan Elimination for a 1000 by 1000 matrix took 0.188765 seconds
+
+Gauss-Jordan Elimination for a 10000 by 10000 matrix took 388.693525 seconds
+
+Gauss-Jordan Elimination for a 20000 by 20000 matrix took 3106.839262 seconds
+	
+
+
+

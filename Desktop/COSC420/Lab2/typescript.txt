@@ -1,0 +1,85 @@
+communication.c 
+
+Rank 0 numbers:   74   94   96   33   72   34    1   11   64    0 
+Rank 0 numbers:   13   66   52   68   68   23   97   77   33   77 
+Rank 0 numbers:  962 6204 4992 2244 4896  782   97  847 2112    0 
+Sum of C: 23136
+Rank 4 numbers:   66   70   18   43   97   99    0   32   28   22 
+Rank 4 numbers:   91   73   46   68   38   22    8   35   90   43 
+Rank 4 numbers: 6006 5110  828 2924 3686 2178    0 1120 2520  946 
+Sum of C: 25318
+Rank 1 numbers:   83   92   12   49   26   66   73   68   48   10 
+Rank 1 numbers:   75   16    5   82   60   42   92   50   79   65 
+Rank 1 numbers: 6225 1472   60 4018 1560 2772 6716 3400 3792  650 
+Sum of C: 30665
+Rank 2 numbers:   45    9   31   69   10   84   15   48   42   91 
+Rank 2 numbers:   56   48   65   37   46   88   45   96   71   59 
+Rank 2 numbers: 2520  432 2015 2553  460 7392  675 4608 2982 5369 
+Sum of C: 29006
+Rank 3 numbers:   57   17   18   96   98   27    7    2    0   11 
+Rank 3 numbers:    8   53   55   54    4   60   58   37   23   25 
+Rank 3 numbers:  456  901  990 5184  392 1620  406   74    0  275 
+Sum of C: 10298
+
+Total sum: 118423
+__________________________________________________________________________________
+main.c
+
+Matrix A:
+     4      1      8      5 
+     5      6      4      1 
+     7      3      4      0 
+     7      6      7      5 
+Matrix B:
+     5      6      9      5 
+     9      4      1      4 
+     9      7      7      0 
+     1      9      1      8 
+
+Final Sums:      9      7     17     10     14     10      5      5     16     10     11      0      8     15      8     13 
+
+Final Differences:     -1     -5     -1      0     -4      2      3     -3     -2     -4     -3      0      6     -3      6     -3 
+
+Transpose of Matrix B: 
+     5      9      9      1 
+     6      4      7      9 
+     9      1      7      1 
+     5      4      0      8 
+
+Printing recvA: 
+     4      1      8      5 
+     5      6      4      1 
+
+& recvTB: 
+     5      9      9      1 
+     6      4      7      9 
+
+IN MATRIX MULTIPLICATION 
+A.rows: 2 & A.cols = 4
+B.rows: 2 & B.cols = 4
+sum reset
+current sum: 20 
+current sum: 26 
+sum reset
+current sum: 36 
+current sum: 40 
+sum reset
+current sum: 36 
+current sum: 43 
+sum reset
+current sum: 4 
+current sum: 13 
+sum reset
+current sum: 25 
+current sum: 61 
+sum reset
+current sum: 45 
+current sum: 69 
+sum reset
+current sum: 45 
+current sum: 87 
+sum reset
+current sum: 5 
+current sum: 59 
+
+Temporary product:     26     40     43     13     61     69     87     59
