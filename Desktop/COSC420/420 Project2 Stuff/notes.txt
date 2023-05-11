@@ -1,0 +1,54 @@
+Matrix A            
+ 0 0 1 0                
+ 1 0 0 0
+ 0 0 0 0
+ 1 1 1 0 
+
+ A lengths
+ 1
+ 1
+ 0
+ 3
+
+ A index matrix 
+ 3
+ 1
+ 0
+ 1,2,3
+
+ Power method 
+
+ 3      x1  <- oldx3
+ 1      x2  <- oldx1
+ 0      x3  <- 0*oldx1 + 0*oldx2 + 0*oldx3 + 0*oldx4
+ 1,2,3  x4  <- 1*oldx1 + 1*oldx2 + 1*oldx3 + 0*oldx4
+
+A is telling us what assignmen we should give to the new  after every iteration 
+
+* 
+(ones vector - X - )
+1
+1
+0
+1
+
+
+after one run of the powermethod 
+
+1 1 0 3 -> 1/sqrt(11) 1/sqrt(11) 0 3/sqrt(11)
+
+second run
+
+x1 <- oldx3 = 0
+x2 <- oldx1 = 1/sqrt(11)
+x3 <- 0
+x4 <- 1/sqrt(11) + 1/sqrt(11) + 0 = 2/sqrt(11)
+
+normalize to get new x and repeat...
+
+
+
+
+
+
+ 
