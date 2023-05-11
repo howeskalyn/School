@@ -1,0 +1,748 @@
+*** the red color does not transfer to .txt ***
+
+1) *********************************************************************************
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.458727 sec
+-------------------------------------------------------------
+Please enter some text: Testing the replacement of a charaxter.
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+TESTING
+THE
+REPLACEMENT
+OF
+A
+CHARAXTER
+
+-------------------------------------------------------------
+Below are the words within one edit distance of CHARAXTER. 
+
+Suggestions for CHARAXTER: 
+
+CHARACTER 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of CHARAXTER. 
+
+Suggestions for CHARACTER: 
+
+CARACTER CHARACTERS CHARACTERY CHARACTER 
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 1
+Total number of suggestions found: 5
+Time required to find suggestions: 79.6422 sec
+
+
+
+
+
+2) *********************************************************************************
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.519176 sec
+-------------------------------------------------------------
+Please enter some text: TESTING addding one!
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+TESTING
+ADDDING
+ONE
+
+-------------------------------------------------------------
+Below are the words within one edit distance of ADDDING. 
+
+Suggestions for ADDDING: 
+
+DADDING ADDING ADDLING 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of ADDDING. 
+
+Suggestions for DADDING: 
+
+ADDING DADING DADDLING CADDING DADDING FADDING GADDING JADDING MADDING PADDING RADDING WADDING DODDING DAUDING DADOING 
+
+Suggestions for ADDING: 
+
+DADING CADDING DADDING FADDING GADDING JADDING MADDING PADDING RADDING WADDING ADDLING ADDING AIDING ANDING AUDING 
+
+Suggestions for ADDLING: 
+
+ADDING DADDLING PADDLING RADDLING SADDLING WADDLING ADDLINGS ADDLING ADELING ADDLINS 
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 1
+Total number of suggestions found: 43
+Time required to find suggestions: 119.396 sec
+
+
+
+
+
+3) *********************************************************************************
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.529616 sec
+-------------------------------------------------------------
+Please enter some text: tesing a remove,
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+TESING
+A
+REMOVE
+
+-------------------------------------------------------------
+Below are the words within one edit distance of TESING. 
+
+Suggestions for TESING: 
+
+TEASING TENSING TESTING BESING RESING TEAING TEEING TEWING 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of TESING. 
+
+Suggestions for TEASING: 
+
+EASING TEAING CEASING FEASING LEASING TEASING TENSING TEAMING TEARING 
+
+Suggestions for TENSING: 
+
+CENSING LENSING MENSING SENSING TENSING TEASING TENDING TENTING TENZING 
+
+Suggestions for TESTING: 
+
+TESTINGS BESTING FESTING JESTING NESTING RESTING TESTING VESTING WESTING ZESTING TASTING TEETING TENTING 
+
+Suggestions for BESING: 
+
+BEING BESIN BESTING BESING RESING BASING BUSING BEKING BERING 
+
+Suggestions for RESING: 
+
+RESIGN RESIN REUSING RESTING RESUING BESING RESING RASING RISING ROSING REDING REKING RERING REWING RESINA RESINK RESINS RESINY 
+
+Suggestions for TEAING: 
+
+TEAMING TEARING TEASING TEAING TEEING TEWING 
+
+Suggestions for TEEING: 
+
+TREEING TEEMING TEETING FEEING GEEING JEEING PEEING SEEING TEEING TIEING TOEING TEAING TEWING 
+
+Suggestions for TEWING: 
+
+EWING STEWING DEWING HEWING JEWING LEWING MEWING NEWING PEWING REWING SEWING TEWING TAWING THWING TOWING TEAING TEEING 
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 1
+Total number of suggestions found: 102
+Time required to find suggestions: 228.264 sec
+
+
+
+
+
+4) *********************************************************************************
+
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.465766 sec
+-------------------------------------------------------------
+Please enter some text: character sawp
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+CHARACTER
+SAWP
+
+-------------------------------------------------------------
+Below are the words within one edit distance of SAWP. 
+
+Suggestions for SAWP: 
+
+SWAP SAP SAW GAWP JAWP MAWP YAWP SAIP SALP SAMP SAWN SAWS SAWT 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of SAWP. 
+
+Suggestions for SWAP: 
+
+WAP SAP SWA SWAPE SWAPS SWAP SCAP SEAP SHAP SLAP SNAP SOAP SSAP STAP SWEP SWOP SWAB SWAD SWAG SWAK SWAM SWAN SWAS SWAT SWAY 
+
+Suggestions for SAP: 
+
+ASP SPA AP SP SA ASAP LSAP NSAP PSAP SSAP TSAP SCAP SEAP SHAP SLAP SNAP SOAP STAP SWAP SAPA SAPO SAPS AAP BAP CAP DAP GAP HAP JAP LAP MAP NAP OAP PAP RAP SAP TAP VAP WAP YAP ZAP SCP SDP SEP SGP SHP SIP SLP SMP SNP SOP SPP SRP SSP STP SUP SVP SAA SAB SAC SAD SAE SAG SAH SAI SAJ SAK SAL SAM SAN SAO SAR SAS SAT SAU SAV SAW SAX SAY 
+
+Suggestions for SAW: 
+
+ASW SWA AW SW SA SCAW SHAW SKAW SLAW SNAW STAW SAWN SAWS SAWT BAW CAW DAW GAW HAW JAW KAW LAW MAW NAW PAW RAW SAW TAW UAW VAW WAW YAW SBW SEW SOW SSW SAA SAB SAC SAD SAE SAG SAH SAI SAJ SAK SAL SAM SAN SAO SAP SAR SAS SAT SAU SAV SAX SAY 
+
+Suggestions for GAWP: 
+
+GAP GAW GAWPS GAWP JAWP MAWP YAWP GAAP GALP GAMP GASP GAUP GAWK GAWM GAWN 
+
+Suggestions for JAWP: 
+
+JAP JAW GAWP JAWP MAWP YAWP JAAP JARP JASP JAUP JAWN JAWS JAWY 
+
+Suggestions for MAWP: 
+
+MAP MAW GAWP JAWP MAWP YAWP MAAP MAWK MAWN MAWR MAWS 
+
+Suggestions for YAWP: 
+
+YAP YAW YAWPS GAWP JAWP MAWP YAWP YAMP YAPP YAUP YAWL YAWN YAWS YAWY 
+
+Suggestions for SAIP: 
+
+SIP SAP SAI SARIP SAIPH PAIP SAIP SHIP SKIP SLIP SNIP SALP SAMP SAIC SAID SAIL SAIM SAIN SAIR SAIS 
+
+Suggestions for SALP: 
+
+SLAP ALP SLP SAP SAL SCALP SALPA SALPS CALP GALP HALP PALP SALP SAIP SAMP SALA SALE SALI SALK SALL SALM SALS SALT 
+
+Suggestions for SAMP: 
+
+AMP SMP SAP SAM SCAMP SLAMP STAMP SWAMP SAMPI SAMPO SAMPS CAMP DAMP FAMP GAMP KAMP LAMP RAMP SAMP TAMP VAMP WAMP YAMP SGMP SIMP SNMP SUMP SAIP SALP SAMA SAME SAMH SAMI SAML SAMS SAMY 
+
+Suggestions for SAWN: 
+
+SWAN AWN SAN SAW SHAWN SPAWN STAWN SAWNY BAWN DAWN FAWN GAWN JAWN LAWN MAWN PAWN SAWN TAWN YAWN SEWN SOWN SAAN SAIN SAON SAWS SAWT 
+
+Suggestions for SAWS: 
+
+SWAS SWS SAS SAW SHAWS SLAWS SNAWS CAWS DAWS HAWS JAWS LAWS MAWS PAWS RAWS SAWS TAWS VAWS WAWS YAWS SEWS SOWS SABS SACS SAGS SAIS SAKS SALS SAMS SANS SAPS SASS SAYS SAWN SAWT 
+
+Suggestions for SAWT: 
+
+SWAT SAT SAW DAWT NAWT SAWT SOWT SAFT SALT SANT SART SAUT SAWN SAWS 
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 1
+Total number of suggestions found: 382
+Time required to find suggestions: 216.108 sec
+
+
+
+
+5) *********************************************************************************
+
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.504279 sec
+-------------------------------------------------------------
+Please enter some text: I love my cat.
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+I
+LOVE
+MY
+CAT
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 0
+Total number of suggestions found: 0
+Time required to find suggestions: 1.1e-05 sec
+
+
+
+
+6) *********************************************************************************
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.520133 sec
+-------------------------------------------------------------
+Please enter some text: Tihs is a test. Compiter sccience suks!
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+TIHS
+IS
+A
+TEST
+COMPITER
+SCCIENCE
+SUKS
+
+-------------------------------------------------------------
+Below are the words within one edit distance of SUKS. 
+
+Suggestions for SUKS: 
+
+SUS SUK SAUKS SOUKS SUCKS SULKS AUKS LUKS YUKS SAKS SUBS SUDS SUES SUMS SUNS SUPS SUSS SUKI SUKU 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of SUKS. 
+
+Suggestions for SUS: 
+
+USS SSU US SS SU ISUS SBUS SOUS SUSA SUSI SUSP SUSS SUSU SUSY AUS BUS FUS GUS HUS IUS JUS KUS MUS NUS OUS PUS RUS SUS WUS YUS SAS SBS SCS SDS SES SIS SLS SMS SOS SPS SRS SSS STS SVS SWS SXS SUB SUD SUE SUF SUG SUH SUI SUK SUM SUN SUP SUQ SUR SUU SUZ 
+
+Suggestions for SUK: 
+
+USK SKU UK SK SU SAUK SOUK SUKI SUKU AUK HUK LUK SUK YUK SAK SIK SOK STK SUB SUD SUE SUF SUG SUH SUI SUM SUN SUP SUQ SUR SUS SUU SUZ 
+
+Suggestions for SAUKS: 
+
+AUKS SAKS SAUK JAUKS SAUKS WAUKS SOUKS SACKS SARKS SAULS 
+
+Suggestions for SOUKS: 
+
+SOUS SOUK JOUKS SOUKS SAUKS SOAKS SOCKS SOOKS SOULS SOUPS SOURS 
+
+Suggestions for SUCKS: 
+
+SUCK SHUCKS BUCKS DUCKS FUCKS GUCKS HUCKS LUCKS MUCKS PUCKS RUCKS SUCKS TUCKS YUCKS SACKS SICKS SOCKS SULKS 
+
+Suggestions for SULKS: 
+
+SULK SCULKS SKULKS BULKS FULKS HULKS SULKS SILKS SUCKS SULUS SULKA SULKY 
+
+Suggestions for AUKS: 
+
+AUS AUK JAUKS SAUKS WAUKS AUKS LUKS YUKS ARKS ASKS 
+
+Suggestions for LUKS: 
+
+LUSK LUK LUCKS LUNKS LURKS AUKS LUKS YUKS LAKS LEKS LUES LUGS LUIS LUMS LUNS LUVS LUKE 
+
+Suggestions for YUKS: 
+
+YUS YUK YEUKS YUCKS AUKS LUKS YUKS YAKS YOKS YUKE YUKI 
+
+Suggestions for SAKS: 
+
+ASKS SKAS SASK SAS SAK SHAKS SOAKS SACKS SARKS SAUKS DAKS LAKS OAKS SAKS YAKS SABS SACS SAGS SAIS SALS SAMS SANS SAPS SASS SAWS SAYS SAKA SAKE SAKI 
+
+Suggestions for SUBS: 
+
+SBUS SBS SUS SUB SLUBS SNUBS STUBS SUBST BUBS CUBS DUBS FUBS HUBS NUBS PUBS RUBS SUBS TUBS SABS SEBS SIBS SOBS SWBS SUDS SUES SUMS SUNS SUPS SUSS SUBA SUBG SUBJ 
+
+Suggestions for SUDS: 
+
+UDS SDS SUS SUD SCUDS SPUDS STUDS SUDDS SURDS SUDSY BUDS CUDS DUDS FUDS IUDS MUDS OUDS PUDS SUDS SMDS SODS SUBS SUES SUMS SUNS SUPS SUSS SUDD SUDE 
+
+Suggestions for SUES: 
+
+USES SES SUS SUE SLUES SPUES SUDES SUPES SURES CUES DUES HUES KUES LUES QUES RUES SUES TUES SEES SHES SUBS SUDS SUMS SUNS SUPS SUSS SUED SUER SUET SUEY SUEZ 
+
+Suggestions for SUMS: 
+
+SMS SUS SUM SCUMS SIUMS SLUMS STUMS BUMS GUMS HUMS LUMS MUMS RUMS SUMS TUMS SAMS SBMS SCMS SIMS SUBS SUDS SUES SUNS SUPS SUSS SUMI SUMO SUMP SUMY 
+
+Suggestions for SUNS: 
+
+UNS SUS SUN SHUNS STUNS SUNNS BUNS DUNS FUNS GUNS HUNS LUNS MUNS NUNS PUNS RUNS SUNS TUNS SANS SINS SONS SUBS SUDS SUES SUMS SUPS SUSS SUNE SUNG SUNK SUNN SUNT SUNY 
+
+Suggestions for SUPS: 
+
+USPS SUSP UPS SPS SUS SUP SCUPS SOUPS SUMPS CUPS DUPS PUPS SUPS TUPS SAPS SEPS SIPS SOPS SSPS SUBS SUDS SUES SUMS SUNS SUSS SUPA SUPE SUPP SUPR SUPT 
+
+Suggestions for SUSS: 
+
+USSS USS SSS SUS SEUSS STUSS SUSSI SUSSO SUSSY BUSS CUSS FUSS GUSS HUSS MUSS PUSS RUSS SUSS WUSS SASS SESS SISS SOSS SUBS SUDS SUES SUMS SUNS SUPS SUSA SUSI SUSP SUSU SUSY 
+
+Suggestions for SUKI: 
+
+SKI SUI SUK SUKIN KUKI SUKI YUKI SAKI SUCI SUFI SUGI SUJI SUMI SUSI SUZI SUKU 
+
+Suggestions for SUKU: 
+
+SKU SUU SUK KUKU PUKU SUKU SUFU SULU SUSU SUTU SUKI 
+
+-------------------------------------------------------------
+Below are the words within one edit distance of SCCIENCE. 
+
+Suggestions for SCCIENCE: 
+
+SCIENCE 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of SCCIENCE. 
+
+Suggestions for SCIENCE: 
+
+SCIENCED SCIENCES SCIENCE 
+
+-------------------------------------------------------------
+Below are the words within one edit distance of COMPITER. 
+
+Suggestions for COMPITER: 
+
+COMPTER COMPETER COMPUTER COMPILER 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of COMPITER. 
+
+Suggestions for COMPTER: 
+
+COPTER COMPTE COMPETER COMPUTER COMPTER COMPEER COMPOER COMPTED COMPTEL 
+
+Suggestions for COMPETER: 
+
+COMPTER COMPEER COMPETE COMPLETER COMPESTER COMPETER COMPUTER COMPETED COMPETES 
+
+Suggestions for COMPUTER: 
+
+COMPTER COMPUTE COMPUTERS COMPUTER COMMUTER COMPETER COMPUTED COMPUTES 
+
+Suggestions for COMPILER: 
+
+COMPLIER COMPILE COMPILERS COMPILER COMPILED COMPILES 
+
+-------------------------------------------------------------
+Below are the words within one edit distance of TIHS. 
+
+Suggestions for TIHS: 
+
+THIS TISH IHS TIS TICS TIES TILS TINS TIPS TITS 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of TIHS. 
+
+Suggestions for THIS: 
+
+HIS TIS THI THAIS THEIS THISN CHIS GHIS KHIS PHIS THIS TMIS TRIS TUIS THOS THUS THIA THIG THIN THIO THIR 
+
+Suggestions for TISH: 
+
+ISH TSH TIS TAISH TRISH TISHA BISH DISH FISH GISH HISH KISH LISH NISH PISH SISH TISH VISH WISH TASH TOSH TUSH TISA 
+
+Suggestions for IHS: 
+
+HIS ISH HS IS ICHS AHS CHS IHS JHS LHS MHS NHS OHS PHS RHS UHS VHS WHS IAS ICS IDS IFS ILS IMS INS IOS IPS IQS IRS ISS ITS IUS IWS IHD IHI IHP 
+
+Suggestions for TIS: 
+
+ITS TSI IS TS TI ATIS ITIS MTIS NTIS OTIS STIS THIS TMIS TRIS TUIS TISA TISH AIS BIS CIS DIS EIS GIS HIS JIS LIS MIS NIS PIS QIS SIS TIS UIS VIS WIS XIS YIS TAS TBS TCS TES TFS TMS TOS TPS TRS TSS TTS TWS TIA TIB TIC TID TIE TIG TIL TIM TIN TIP TIT TIU TIV TIW 
+
+Suggestions for TICS: 
+
+ICS TCS TIS TIC BICS CICS PICS RICS SICS TICS TIES TILS TINS TIPS TITS TICA TICE TICK 
+
+Suggestions for TIES: 
+
+TES TIS TIE STIES TRIES TIDES TIKES TILES TIMES TINES TIRES TIZES DIES GIES HIES KIES LIES NIES PIES RIES TIES VIES TEES TOES TRES TUES TYES TICS TILS TINS TIPS TITS TIED TIEN TIER 
+
+Suggestions for TILS: 
+
+ILS TIS TIL TAILS TOILS TILLS TIRLS AILS FILS GILS MILS NILS OILS TILS TELS TICS TIES TINS TIPS TITS TILA TILE TILL TILT 
+
+Suggestions for TINS: 
+
+INS TIS TIN TAINS THINS TWINS TIENS TINSY AINS BINS DINS FINS GINS HINS JINS KINS LINS MINS PINS RINS SINS TINS VINS WINS YINS ZINS TANS TENS TONS TUNS TICS TIES TILS TIPS TITS TINA TINC TIND TINE TING TINI TINK TINO TINT TINY 
+
+Suggestions for TIPS: 
+
+IPS TPS TIS TIP TRIPS TIPSY AIPS DIPS FIPS GIPS HIPS KIPS LIPS MIPS NIPS PIPS RIPS SIPS TIPS VIPS WIPS YIPS ZIPS TAPS TOPS TSPS TUPS TICS TIES TILS TINS TITS TIPE TIPI 
+
+Suggestions for TITS: 
+
+ITS TTS TIS TIT TOITS TWITS TILTS TINTS AITS BITS DITS EITS FITS HITS KITS LITS MITS NITS PITS SITS TITS WITS ZITS TATS TETS TOTS TSTS TUTS TICS TIES TILS TINS TIPS TITA TITE TITI TITO 
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 4
+Total number of suggestions found: 346
+Time required to find suggestions: 651.48 sec
+
+
+
+7) *********************************************************************************
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.47788 sec
+-------------------------------------------------------------
+Please enter some text: aaaaaaaaaaaaaaa
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+AAAAAAAAAAAAAAA
+
+-------------------------------------------------------------
+There are no suggestions available for AAAAAAAAAAAAAAA.
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 1
+Total number of suggestions found: 0
+Time required to find suggestions: 65.3124 sec
+
+
+8) *********************************************************************************
+
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.458596 sec
+-------------------------------------------------------------
+Please enter some text: Hello Anderson, if you're readng this?
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+HELLO
+ANDERSON
+IF
+YOURE
+READNG
+THIS
+
+-------------------------------------------------------------
+Below are the words within one edit distance of READNG. 
+
+Suggestions for READNG: 
+
+READING 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of READNG. 
+
+Suggestions for READING: 
+
+REDING BREADING DREADING TREADING READDING READYING READINGS BEADING DEADING HEADING LEADING READING ROADING REDDING REEDING RENDING REAMING REAPING REARING REAVING 
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 1
+Total number of suggestions found: 21
+Time required to find suggestions: 56.1562 sec
+
+
+
+
+9) *********************************************************************************
+	****** BONUS EXAMPLE ******
+
+Welcome to Spell Checker!
+-------------------------------------------------------------
+The database has loaded...
+-------------------------------------------------------------
+Total words: 466545
+Biggest bin size: 5013
+Smallest bin size: 0
+Total number of bins: 1000
+Number of used bins: 128
+Average number of nodes in each bin: 466.545
+Total time taken to insert: 0.465113 sec
+-------------------------------------------------------------
+Please enter some text: Hello, my name is Kalyn Ciara Howes!
+-------------------------------------------------------------
+You have entered the following words. The words highlighted red are misspelled.
+
+HELLO
+MY
+NAME
+IS
+KALYN
+CIARA
+HOWES
+
+-------------------------------------------------------------
+
+Would you like to add the word, CIARA, to the Dictionary? no
+Your word was NOT added to the Dictionary.
+
+Would you like to add the word, KALYN, to the Dictionary? yes
+Your word was added to the Dictionary.
+
+-------------------------------------------------------------
+Below are the words within one edit distance of CIARA. 
+
+Suggestions for CIARA: 
+
+CARA SCIARA TIARA ZIARA CEARA CHARA CLARA CIDRA CITRA 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of CIARA. 
+
+Suggestions for CARA: 
+
+ACRA ARA CAA CAR ACARA CEARA CHARA CLARA CAHRA CAKRA CAMRA CAPRA CARAP CARAS CARAT CARAZ AARA BARA CARA DARA FARA GARA HARA JARA KARA LARA MARA NARA PARA RARA SARA TARA VARA ZARA CERA CORA CURA CYRA CABA CACA CAIA CAMA CANA CAPA CASA CAVA CAZA CARB CARD CARE CARF CARI CARK CARL CARN CARO CARP CARR CARS CART CARY 
+
+Suggestions for SCIARA: 
+
+SCIARA 
+
+Suggestions for TIARA: 
+
+TAIRA TARA TIAR TIARAS TIARA ZIARA TIANA 
+
+Suggestions for ZIARA: 
+
+ZARA ZIRA ZIARAT TIARA ZIARA ZOARA 
+
+Suggestions for CEARA: 
+
+CARA CERA CEAR CEARA MEARA YEARA CHARA CLARA 
+
+Suggestions for CHARA: 
+
+CAHRA HARA CARA CHAA CHAR CHACRA CHAKRA CHARAC CHARAS BHARA CHARA OHARA SHARA CEARA CLARA CHERA CHORA CHURA CHAGA CHAJA CHAKA CHAMA CHANA CHAPA CHAYA CHARD CHARE CHARI CHARK CHARM CHARO CHARR CHARS CHART CHARY 
+
+Suggestions for CLARA: 
+
+LARA CARA CLAR CLARA ELARA KLARA CEARA CHARA CLAVA CLARE CLARI CLARK CLARO CLART CLARY 
+
+Suggestions for CIDRA: 
+
+CIDA CHIDRA CINDRA CIDRA SIDRA CITRA 
+
+Suggestions for CITRA: 
+
+CITA CHITRA CITRAL CITRA LITRA MITRA SITRA VITRA CIDRA CITUA 
+
+-------------------------------------------------------------
+Below are the words within one edit distance of KALYN. 
+
+Suggestions for KALYN: 
+
+KARLYN KAYLYN KALYN KARYN KALAN KALIN KALON KALVN 
+
+-------------------------------------------------------------
+Below are the words within two edit distances of KALYN. 
+
+Suggestions for KARLYN: 
+
+ARLYN KALYN KARYN KARLY KAROLYN CARLYN KARLYN MARLYN KAYLYN KARLAN KARLEN KARLIN 
+
+Suggestions for KAYLYN: 
+
+KALYN KAYLYN KARLYN 
+
+Suggestions for KALYN: 
+
+KARLYN KAYLYN KALYN KARYN KALAN KALIN KALON KALVN 
+
+Suggestions for KARYN: 
+
+ARYN KARN KARY KARLYN CARYN DARYN KARYN MARYN TARYN KALYN KAREN KARIN KARON KARYL 
+
+Suggestions for KALAN: 
+
+ALAN KLAN KALA KAPLAN KARLAN KALGAN KALIAN KALMAN KALANG BALAN CALAN DALAN GALAN KALAN MALAN KILAN KULAN KAKAN KAYAN KAZAN KALIN KALON KALVN KALYN KALAM KALAT 
+
+Suggestions for KALIN: 
+
+ALIN KAIN KALI KHALIN KAOLIN KARLIN KATLIN KALVIN KALINA CALIN KALIN MALIN KYLIN KAMIN KARIN KALAN KALON KALVN KALYN KALIE KALIF KALIL KALIS 
+
+Suggestions for KALON: 
+
+ALON KAON KALO KALONA KALONG BALON KALON SALON TALON KARON KALAN KALIN KALVN KALYN 
+
+Suggestions for KALVN: 
+
+KALVN KALAN KALIN KALON KALYN 
+
+-------------------------------------------------------------
+
+*SUMMARY*
+-------------------------------------------------------------
+Total misspelled words: 2
+Total number of suggestions found: 113
+Time required to find suggestions: 367.797 sec
+
+
+
+
+
+
+
+
