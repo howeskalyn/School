@@ -1,0 +1,17 @@
+Script started on Wed Feb 10 15:02:05 2021
+
+Time starts now: 
+Is it sorted?
+The array is sorted.
+# of comparisons: 771
+
+finished at Wed Feb 10 15:02:12 2021
+elapsed time: 3.2e-05s
+
+Time starts now: 
+Is it sorted?
+The array is sorted.
+# of comparisons: 665649000
+
+finished at Wed Feb 10 15:02:12 2021
+elapsed time: 1.3e-05s
