@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author kalynhowes
- *
- */
-module ClassExample {
-}
